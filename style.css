@@ -1,3 +1,29 @@
 #content {
+    margin: auto;
     max-width: 50em;
+}
+
+p {
+    font-size: 2em;
+}
+
+a {
+    color: black;
+    font-size: 2em;
+}
+
+img {
+    width: 70%;
+}
+
+.destinations {
+    display: flex;
+    gap: 0.5em;
+}
+
+.destinations>* {
+    min-width: 5em;
+}
+h2{
+    font-size: 3em;
 }
